@@ -2,7 +2,8 @@ import instaloader
 import pandas as pd
 import os
 
-L = instaloader.Instaloader(request_timeout=100,max_connection_attempts=2)
+L = instaloader.Instaloader()
+
 
 file_path = input('Full path to list of user:')
 

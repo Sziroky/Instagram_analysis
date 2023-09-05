@@ -4,7 +4,7 @@ import re
 import string
 import spacy
 import os
-import pl_core_news_lg
+
 
 # Loading Polish Model
 nlp = spacy.load('pl_core_news_lg')
